@@ -26,7 +26,7 @@ class MobileNav extends Component {
             </Link>
           </div>
           <div className="hamburgerDiv">
-            <button onClick={toggleNav} type="button">
+            <button id="openNavButton" aria-label="openNavButton" onClick={toggleNav}>
               <HamburgerIcon></HamburgerIcon>
             </button>
           </div>

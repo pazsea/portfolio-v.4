@@ -26,7 +26,9 @@ class ContactFooter extends Component {
             href="https://github.com/pazsea/"
             className="github"
             target="blank"
+            rel="noopener noreferrer"
             onClick={toggleInfo}
+            aria-label="Go to my Github page and see my projects"
           >
             <GithubIcon></GithubIcon>
           </a>
@@ -34,7 +36,9 @@ class ContactFooter extends Component {
             href="http://www.linkedin.com/in/patrick-sjoberg"
             className="linkedin"
             target="blank"
+            rel="noopener noreferrer"
             onClick={toggleInfo}
+            aria-label="Go to my Linkedin page and send my a message"
           >
             <LinkedinIcon></LinkedinIcon>
           </a>

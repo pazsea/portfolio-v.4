@@ -50,7 +50,6 @@ class Contact extends Component {
             values,
             touched,
             errors,
-            isSubmitting,
             handleChange,
             handleBlur
           } = props;
@@ -110,7 +109,7 @@ class Contact extends Component {
                   }
                 />
 
-                <button type="submit" disabled={isSubmitting}>
+                <button id="submitFormbutton" type="submit">
                   SEND EMAIL <MailIcon></MailIcon>
                 </button>
               </CustomForm>

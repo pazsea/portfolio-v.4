@@ -126,7 +126,10 @@ class Projects extends PureComponent {
               {choosenProject && showPopup ? (
                 <BackdropStyle>
                   <div className="closeIcon">
-                    <button onClick={() => this.closePopup()}>
+                    <button
+                      id="closePopupButton"
+                      onClick={() => this.closePopup()}
+                    >
                       CLOSE <CloseIcon></CloseIcon>
                     </button>
                   </div>

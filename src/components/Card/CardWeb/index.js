@@ -73,6 +73,7 @@ class Card extends Component {
           </HeaderDiv>
           <div className="cardButtons">
             <button
+              id="goalButton"
               className="goalButton"
               onClick={() => this.choosenDesc("goal")}
             >
@@ -80,6 +81,7 @@ class Card extends Component {
             </button>{" "}
             /{" "}
             <button
+              id="challengesButton"
               className="challengesButton"
               onClick={() => this.choosenDesc("challenges")}
             >
@@ -87,6 +89,7 @@ class Card extends Component {
             </button>{" "}
             /{" "}
             <button
+              id="roleButton"
               className="solutionsButton"
               onClick={() => this.choosenDesc("solutions")}
             >
@@ -115,12 +118,12 @@ class Card extends Component {
           ) : null}
 
           <div className="sourceButtons">
-            <a href={githubURL} target="_blank" rel="noopener noreferrer">
+            <a href={githubURL} target="_blank" aria-label="Go to my githup repo and see the project code" rel="noopener noreferrer">
               SOURCE CODE <GithubIcon className="githubIcon"></GithubIcon>
             </a>
             {/* ADDERA LIVE DEMO!!! */}
             {liveDemoURL ? (
-              <a href={liveDemoURL} target="blank">
+              <a href={liveDemoURL} aria-label="See this projects live demo" target="blank" rel="noopener noreferrer">
                 LIVE DEMO <LiveurlIcon className="liveUrlIcon"></LiveurlIcon>
               </a>
             ) : null}

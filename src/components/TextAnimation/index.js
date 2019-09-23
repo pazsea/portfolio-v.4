@@ -35,7 +35,7 @@ class TextAnimation extends Component {
                 style={{
                   verticalAlign: "middle",
                   width: "0.8em",
-                  color: "darkblue"
+                  color: "dimgrey"
                 }}
                 className="fas fa-laptop-code fa-1x"
               ></LaptopIcon>

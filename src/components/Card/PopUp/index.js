@@ -56,13 +56,13 @@ class PopUp extends Component {
     return (
       <Wrapper>
         <ActionDiv>
-          <button onClick={() => prevPage()}>
+          <button id="prevPageButton" onClick={() => prevPage()}>
             <BackwardsIcon></BackwardsIcon> Previous
           </button>
           <p>
             {currentProjectPage + 1} /{totalProjects}{" "}
           </p>
-          <button onClick={() => nextPage()}>
+          <button id="nextPageButton" onClick={() => nextPage()}>
             Next <ForwardsIcon></ForwardsIcon>
           </button>
         </ActionDiv>
@@ -95,6 +95,7 @@ class PopUp extends Component {
           </HeaderDiv>
           <div className="cardButtons">
             <button
+              id="goalButton"
               className="goalButton"
               onClick={() => this.choosenDesc("goal")}
             >
@@ -102,6 +103,7 @@ class PopUp extends Component {
             </button>{" "}
             /{" "}
             <button
+              id="challengesButton"
               className="challengesButton"
               onClick={() => this.choosenDesc("challenges")}
             >
@@ -109,6 +111,7 @@ class PopUp extends Component {
             </button>{" "}
             /{" "}
             <button
+              id="roleButton"
               className="solutionsButton"
               onClick={() => this.choosenDesc("solutions")}
             >
@@ -137,12 +140,22 @@ class PopUp extends Component {
           ) : null}
 
           <div className="sourceButtons">
-            <a href={githubURL} target="_blank" rel="noopener noreferrer">
+            <a
+              href={githubURL}
+              target="_blank"
+              aria-label="Go to my githup repo and see the project code"
+              rel="noopener noreferrer"
+            >
               SOURCE CODE <GithubIcon className="githubIcon"></GithubIcon>
             </a>
             {/* ADDERA LIVE DEMO!!! */}
             {liveDemoURL ? (
-              <a href={liveDemoURL} target="_blank" rel="noopener noreferrer">
+              <a
+                href={liveDemoURL}
+                target="_blank"
+                aria-label="Go to my githup repo and see the project code"
+                rel="noopener noreferrer"
+              >
                 LIVE DEMO <LiveurlIcon className="liveUrlIcon"></LiveurlIcon>
               </a>
             ) : null}

@@ -36,13 +36,13 @@ export const TextHeader = styled.div`
   width: 100%;
   text-align: center;
   h1 {
-    font-family: "Oswald", sans-serif;
+    /* font-family: "Oswald", sans-serif; */
     font-display: swap;
-    /* font-family: "Amatic SC", cursive; */
-    font-size: 3rem;
+    font-family: "Amatic SC", cursive;
+    font-size: 4rem;
     text-transform: uppercase;
-    color: #ffce00;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    color: crimson;
+    /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
     @media (max-width: 500px) {
       font-size: 2.5rem;
     }
@@ -81,7 +81,7 @@ export const MaterialButton = styled.button`
   color: white;
   text-shadow: black -1px 0px, black 0px 1px, black 1px 0px, black 0px -1px;
   font-style: bold;
-  background-color: #ffce00;
+  background-color: dimgrey;
   padding: 6px 16px;
   font-size: 1rem;
   min-width: 64px;
