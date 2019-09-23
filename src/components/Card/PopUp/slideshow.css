@@ -1,0 +1,34 @@
+.horizontalImage {
+  background: #fbeec1;
+  text-align: center;
+  min-height: 200px;
+}
+.horizontalImage img {
+  width: 100%;
+  border-radius: 10px;
+  min-height: 200px;
+}
+
+.horizontalThumbnail {
+  min-width: 90px;
+}
+
+.horizontalThumbnailGif {
+  width: 65px;
+}
+
+.verticalImage {
+  background: #fbeec1;
+  text-align: center;
+
+}
+
+.verticalImage img {
+  width: 40%;
+  border-radius: 10px;
+
+}
+
+.verticalThumbnail {
+  width: 40px;
+}
