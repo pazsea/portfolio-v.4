@@ -260,9 +260,9 @@ export const projects = [
     name: "Portfolio Manager",
     mobileImage: portfolioManagerLanding,
     shortDesc:
-      "An experiment project working with an API using JWT tokens. In this project I also experimented with MobX with satisfying results.",
+      "A experiment project working with an API using JWT tokens. In this project I also experimented with MobX with satisfying results.",
     goalsDesc:
-      "An company gave me this intresting work test. /n Using React + MobX + JWT tokens they wanted me to make a application that the user could log in to an existing account they provided. /n The user would then see his stock portfolio and it´s value.",
+      "A company gave me this intresting work test. /n Using React + MobX + JWT tokens they wanted me to make a application that the user could log in to an existing account they provided. /n The user would then see his stock portfolio and it´s value.",
     challengesDesc:
       "I never worked with JWT tokens before and it was interesting to see how they work. Sometimes they need to be refreshed and verified before they could be an valid token. /n You need to keep this in mind when coding the fetch method. I think I did a good job. /n Also I never worked with MobX which could handle the global state. I still prefer Redux or React hooks.",
     myRoleDesc: "This was my own project so I decided on everything.",

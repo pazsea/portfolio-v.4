@@ -41,7 +41,7 @@ export const TextHeader = styled.div`
     font-family: "Amatic SC", cursive;
     font-size: 4rem;
     text-transform: uppercase;
-    color: crimson;
+    color: #d60e0d;
     /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
     @media (max-width: 500px) {
       font-size: 2.5rem;
@@ -81,7 +81,7 @@ export const MaterialButton = styled.button`
   color: white;
   text-shadow: black -1px 0px, black 0px 1px, black 1px 0px, black 0px -1px;
   font-style: bold;
-  background-color: dimgrey;
+  background-color: #d60e0d;
   padding: 6px 16px;
   font-size: 1rem;
   min-width: 64px;

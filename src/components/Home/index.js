@@ -31,7 +31,7 @@ class Home extends Component {
       <Wrapper>
         <TextWrapper>
           <TextHeader>
-            <h1>I am Patrick</h1>
+            <h1>Hi, I am Patrick</h1>
             <TextAnimation />
             <img src={cartoonMe} alt="Patrick Cartoon" />
           </TextHeader>

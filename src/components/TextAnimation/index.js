@@ -18,7 +18,7 @@ class TextAnimation extends Component {
 
           <ul className="content__container__list">
             <li className="content__container__list__item">
-              Patrick Sjöberg's Portfolio{" "}
+              This is my Portfolio{" "}
               <BriefCaseIcon
                 style={{
                   verticalAlign: "middle",
