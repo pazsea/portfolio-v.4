@@ -4,7 +4,7 @@ export const Wrapper = styled.div`
   display: flex;
   height: 70vh;
   margin: 0 2%;
-  border: 2px solid green;
+  /* border: 2px solid green; */
   /* @media (min-height: 570px) {
     margin: 5vh 2% 10vh 2%;
   }*/

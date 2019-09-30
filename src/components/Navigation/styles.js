@@ -67,7 +67,7 @@ export const Nav = styled.nav`
     flex-direction: row;
     background: none;
     z-index: none;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 
     li {
       a {

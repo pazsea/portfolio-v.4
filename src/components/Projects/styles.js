@@ -46,5 +46,5 @@ export const PopUpStyle = styled.div`
   margin: auto;
   vertical-align: center;
   height: 90%;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 `;
