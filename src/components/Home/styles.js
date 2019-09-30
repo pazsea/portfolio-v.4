@@ -4,7 +4,19 @@ export const Wrapper = styled.div`
   display: flex;
   height: 70vh;
   margin: 0 2%;
-  /* border: 2px solid red; */
+  border: 2px solid green;
+  /* @media (min-height: 570px) {
+    margin: 5vh 2% 10vh 2%;
+  }*/
+  /* @media (min-width: 500px ) {
+    margin: 10% 2%;
+  } 
+  @media (min-height: 20px ) {
+    margin: 10% 2%;
+  } 
+  @media (min-width: 1024px) {
+    margin: 0 2%;
+  } */
 `;
 
 export const TextWrapper = styled.div`
@@ -33,6 +45,7 @@ export const ImageDiv = styled.div`
 
 export const TextHeader = styled.div`
   /* border: 1px solid orange; */
+
   width: 100%;
   text-align: center;
   h1 {
@@ -60,6 +73,7 @@ export const TextHeader = styled.div`
     @media (max-width: 1024px) {
       display: block;
       width: 55%;
+      height: auto;
       margin: 0 auto;
     }
     @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {

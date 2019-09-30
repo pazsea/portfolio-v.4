@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Nav = styled.nav`
   display: flex;
-  position: absolute;
+  position: fixed;
   font-size: 2.3em;
   background: #efe2ba;
   width: 100%;
@@ -12,7 +12,7 @@ export const Nav = styled.nav`
   font-display: swap;
   font-style: bold;
 
-  top: ${props => (props.navOpen ? "65px" : "-350px")};
+  top: ${props => (props.navOpen ? "60px" : "-350px")};
   list-style: none;
 
   flex-direction: column;
@@ -58,16 +58,17 @@ export const Nav = styled.nav`
 
   /* // Small devices (landscape phones, 576px and up) */
   @media (min-width: 576px) {
-    top: 0;
-    transform: 0;
   }
 
   /* // Medium devices (tablets, 768px and up) */
   @media (min-width: 768px) {
-    position: relative;
-
+    position: sticky;
+    top: 0;
     flex-direction: row;
     background: none;
+    z-index: none;
+    border: 1px solid red;
+
     li {
       a {
         border: none;

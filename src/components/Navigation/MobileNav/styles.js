@@ -15,7 +15,6 @@ export const MobileNavDiv = styled.nav`
   .currentPage {
     font-weight: 800;
     color: black;
-
   }
 
   .activePageDiv {
