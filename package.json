@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@emotion/core": "^10.0.10",
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "compose": "^0.1.2",
     "formik": "^1.5.8",
     "hamburgers": "^1.1.3",
